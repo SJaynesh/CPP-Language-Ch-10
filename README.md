@@ -37,5 +37,14 @@
 
 ## Access Modifiers in Inheritance (Use of public, private, and protected) :
 
+> * Access modifiers use in inheritance so it's called `Visibility Modifiers / specifiers`.
+
+<br><br>
+
+Data Member / Memeber Function | Private    | Protected | Public
+-------------| --------   | --------- | ------- 
+Inherit Private | Not Access | Private | Private.
+Inherit Protected | Not Access | Protected | Protected.
+Inherit Public | Not Access | Protected | Public.
 
 
