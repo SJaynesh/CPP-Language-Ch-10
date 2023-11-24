@@ -188,6 +188,11 @@ Inherit Public | Not Access | Protected | Public.
 > * Child class fields can be accessed using Parent class.
 
 
+<br>
+
+### 2. Remove ambiguity permenantly :
+> * removes ambiguity permenantly from the hybrid inheritence.
+
 
 
 
