@@ -53,4 +53,150 @@ Inherit Private | Not Access | Private | Private.
 Inherit Protected | Not Access | Protected | Protected.
 Inherit Public | Not Access | Protected | Public.
 
+<br>
+
+<pre>
+  #include<iostream>
+  using namespace std;
+  
+  class A {
+  	
+  	private :
+  		int a,b;
+  	protected:
+  		int c,d;
+  	public :
+  		
+  		void setDataA() {
+  			a = 10, b = 20, c = 30, d = 40;
+  		}
+  		
+  		void getDataA() {
+  			cout << endl << "A : " << a 
+  				 << endl << "B : " << b
+  				 << endl << "C : " << c 
+  				 << endl << "D : " << d << endl;
+  		}
+  	
+  };
+  
+  class B : private A{
+  	private :
+  		int m,n;
+  	protected:
+  		int o,p;
+  	public :
+  		
+  		void setDataB() {
+  			
+  			setDataA();
+  			
+  			m = 10, n = 20, o = 30, p = 40;
+  		}
+  		
+  		void getDataB() {
+  			
+  			getDataA();
+  			
+  			cout << endl << "M : " << m 
+  				 << endl << "N : " << n
+  				 << endl << "O : " << o
+  				 << endl << "P : " << p << endl;
+  		}
+  };
+  
+  int main() {
+  	B b1;
+  	
+  //	b1.setDataA();
+  	b1.setDataB();
+  	
+  //	b1.getDataA();
+  	b1.getDataB();
+  }
+</pre>
+
+<br><br>
+
+## Pointer object :
+
+> * pointer is a object which stores address of another object.
+
+
+<br>
+
+<pre>
+  #include<iostream>
+  using namespace std;
+  
+  class Student {
+  	
+  	private :
+  		int id;
+  		string name;
+  		double per;
+  		
+  	public :
+  		void setData() {
+  			cout << endl << "Enter your Id : ";
+  			cin >> id;
+  			cout << "Enter your Name : ";
+  			cin >> name;
+  			cout << "Enter your Percentage : ";
+  			cin >> per;
+  		}
+  		
+  		void getData() {
+  			cout << endl << "Id\t: " << id 
+  				 << endl << "Name\t: " << name
+  				 << endl << "Per\t: " << per << endl;
+  		}
+  };
+  
+  
+  int main() {
+  	
+  	Student s1;
+  	
+  	// Pointer Of Object
+  	Student *ptr;
+  	
+  	// Store another object address in Pointer
+  	ptr = &s1;
+  	
+  	//To Calls Methods
+  	ptr->setData();
+  	ptr->getData();
+  	
+  }
+</pre>
+
+<br><br>
+
+## Virtual Function :
+
+> * Virtual Function is use virtual keyword.
+
+> * Virtual Keyword to use :
+> * 1. Reverse the flow of inheritence.
+> * 2. Remove ambiguity permenantly. 
+
+<br>
+
+### 1. Reverse the flow of inheritence :
+> * Class must be inherited.
+> * Child class fields can be accessed using Parent class.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
