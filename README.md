@@ -186,9 +186,61 @@ Inherit Public | Not Access | Protected | Public.
 ### 1. Reverse the flow of inheritence :
 > * Class must be inherited.
 > * Child class fields can be accessed using Parent class.
+> * Create a Pointer of Object.
 
+<br><br>
 
-<br>
+<pre>
+  #include<iostream>
+  using namespace std;
+  
+  class A {
+  	
+  	public :
+  		
+  		virtual void print() {
+  			cout << endl << "BASE CLASS" << endl;
+  		}
+  };
+  
+  class B : public A {
+  	
+  	public :
+  		
+  		void print() {
+  			cout << endl << "CHILD CLASS" << endl;
+  		}
+  };
+  
+  
+  int main() {
+  	
+  //	B b1;
+  //
+  //	b1.print();
+  
+  
+  
+  //	A *ptr;
+  //	A a1;
+  //
+  //	ptr = &a1;
+  //
+  //	ptr->print();
+  
+  
+  	A *ptr;
+  	
+  	B b1;
+  	
+  	ptr = &b1;
+  	
+  	ptr->print();
+  	
+  }
+</pre>
+
+<br><br>
 
 ### 2. Remove ambiguity permenantly :
 > * removes ambiguity permenantly from the hybrid inheritence.
