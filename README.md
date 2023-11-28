@@ -178,73 +178,82 @@ Inherit Public | Not Access | Protected | Public.
 > * Virtual Function is use virtual keyword.
 
 > * Virtual Keyword to use :
-> * 1. Reverse the flow of inheritence.
-> * 2. Remove ambiguity permenantly. 
+> * 1. Remove ambiguity permenantly. 
+
+<br><br>
+
+### 1. Remove ambiguity permenantly :
+> * removes ambiguity permenantly from the hybrid inheritence.
 
 <br>
 
-### 1. Reverse the flow of inheritence :
-> * Class must be inherited.
-> * Child class fields can be accessed using Parent class.
-> * Create a Pointer of Object.
+## Abstract class (Pure virtual function) :
+
+> * It is a type of class which cannot be instanciated. we cannot create object of that class.
+> * Abstract class to which we can not create any object.
+> * In C++, abstract class can be created using pure virtual function.
+> * pure virtual method can be created using virtual keyword and initial value ZERO.
+> * `virtual returnType functionName([arguments]) = 0;`
+> * pure virtual function can't have body in current class but it will be defined(create body) into it's child class.
+> * if we won't define it into child class with same signatures(name, parameters, return type), the child class also will be abstract.
+
 
 <br><br>
 
 <pre>
   #include<iostream>
-  using namespace std;
-  
-  class A {
-  	
-  	public :
-  		
-  		virtual void print() {
-  			cout << endl << "BASE CLASS" << endl;
-  		}
-  };
-  
-  class B : public A {
-  	
-  	public :
-  		
-  		void print() {
-  			cout << endl << "CHILD CLASS" << endl;
-  		}
-  };
-  
-  
-  int main() {
-  	
-  //	B b1;
-  //
-  //	b1.print();
-  
-  
-  
-  //	A *ptr;
-  //	A a1;
-  //
-  //	ptr = &a1;
-  //
-  //	ptr->print();
-  
-  
-  	A *ptr;
-  	
-  	B b1;
-  	
-  	ptr = &b1;
-  	
-  	ptr->print();
-  	
-  }
+using namespace std;
+
+class Google {
+	
+	protected:
+		string email;
+		string psw;
+	
+		virtual void signIn(string email,string psw) = 0;
+	
+	public:	
+	
+		void getCredentials() {
+			cout << "Email\t\t: " << email << endl
+				 << "Password\t: " << psw << endl;
+		}
+		
+};
+
+class DemoApp : public Google {
+	
+	string e,p;
+	
+		void signIn(string e,string p) {
+			email = e;
+			psw = p;
+		}
+	
+	public:	
+		void signInWithGoogle() {
+			
+			cout << "Enter email: ";
+			cin  >> e;
+			cout << "Enter password: ";
+			cin  >> p;
+			
+			signIn(e,p);
+			
+		}
+	
+};
+
+int main()
+{
+	DemoApp d;
+	
+	d.signInWithGoogle();
+	
+	d.getCredentials();
+}
+
 </pre>
-
-<br><br>
-
-### 2. Remove ambiguity permenantly :
-> * removes ambiguity permenantly from the hybrid inheritence.
-
 
 
 
