@@ -185,6 +185,12 @@ Inherit Public | Not Access | Protected | Public.
 
 <br><br>
 
+<br>
+
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/b36616cf-7abc-4d0c-8f3a-58fecd1efd56.png" width=60% height=50%></p>
+
+
+
 ### 1. Remove ambiguity permenantly :
 > * removes ambiguity permenantly from the hybrid inheritence.
 
