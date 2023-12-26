@@ -1,7 +1,7 @@
 # Data Abstraction 
 
 <br><br> 
-
+ 
 ## What is Data Abstraction (To Secure / To Restrict):
 > * `To hide some methods from direct contact of public users. we can abstract them using different OOP abstraction(restriction).`
 > * Abstraction is process of a hiding implementation the details from the user.
