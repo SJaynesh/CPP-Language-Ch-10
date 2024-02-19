@@ -50,7 +50,7 @@ br><br>
 
 <br><br>
 
-Data Member / Memeber Function | Private    | Protected | Public
+Data Member / Member Function | Private    | Protected | Public
 -------------| --------   | --------- | ------- 
 Inherit Private | Not Access | Private | Private.
 Inherit Protected | Not Access | Protected | Protected.
