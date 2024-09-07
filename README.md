@@ -4,8 +4,10 @@
  
 ## What is Data Abstraction (To Secure / To Restrict):
 > * `To hide some methods from direct contact of public users. we can abstract them using different OOP abstraction(restriction).`
+> * Data abstraction is **the process of hiding the implementation details and showing only the essential features of an object**.
+> * It is **achieved through** the use of **abstract classes** and pure virtual function. 
 > * Abstraction is process of a hiding implementation the details from the user.
-> * hide logic and display only essencial part of interface(ui) to the user.
+> * He logic and display only essencial part of interface(ui) to the user.
 > * prevent the user from accessing the app data.
 
 <br><br>
@@ -29,7 +31,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/ce02c4cf-2a08-4a5
 
 
 
-br><br>
+<br><br>
 
 ## Methods :
 <br>
