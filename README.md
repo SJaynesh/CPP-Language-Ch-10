@@ -12,22 +12,22 @@
 
 <br><br>
 
-<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/c4ac0428-7e65-4f4a-86da-a960c545450f.png" width=60% height=80%></p>
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/c4ac0428-7e65-4f4a-86da-a960c545450f.png" width=60% height=80%></p> 
 
 <br>
 
 
 
 
-<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/3ee115ab-961c-47e7-992e-1222fd959b19.png" width=60% height=80%></p>
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/3ee115ab-961c-47e7-992e-1222fd959b19.png" width=60% height=80%></p> 
 
 <br>
 
-<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/03dd6e0b-c8ab-45a6-b53a-51bedbfbc7e9.png" width=60% height=50%></p>
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/03dd6e0b-c8ab-45a6-b53a-51bedbfbc7e9.png" width=60% height=50%></p> 
 
 <br><br>
 
-https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/ce02c4cf-2a08-4a58-917b-1f0025f5cecf 
+https://github.com/SJaynesh/CPP-Languge-Ch-10/assets/115562979/ce02c4cf-2a08-4a58-917b-1f0025f5cecf  
 
 
 
